@@ -1,51 +1,152 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Portfolio </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="main.css" rel="stylesheet" type="text/css" />
+<head>
+        <title> Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link href="main.css" rel="stylesheet" type="text/css" />
+
     </head>
 <body>
 
-
     <div class="bgimg-1">
         <div class="caption">
-            <span class="border">SCROLL DOWN</span>
+            <span class="border">Alexandra Miller </span>
         </div>
     </div>
-              
     <div class="parallax-box">
-        <h3 style="text-align:center;">Parallax Demo</h3>
-        <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+        <h3 style="text-align:center;">About Me</h3>
+        <center><img src="images/me-bw.jpg" style="border-radius:50%; width:25%;"></center>
+        <p>Hi! My name is Alexandra Miller. Welcome to my portfolio, containing some of my
+            latest work in various mediums, including prints, photography, ink, and digital work. <br>
+            I am also proficient in HTML, CSS, Javascript, Bootstrap, and C++. This website was put together
+            using a combination of HTML, CSS, Javascript, and Bootstrap. For an additional example of my work,
+            click <a href ="https://www.sunshinecoffeeroasters.com/">here</a>
+        </p>
     </div>
-              
+     <!-- **************   Prints   **************** -->
     <div class="bgimg-2">
         <div class="caption">
-          <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">
-              LESS HEIGHT
+          <span class="border">
+            Prints
           </span>
+          <p class="little"> A mixture of relief (block) printing and screen printing, using a variety
+              of inks for each method. </p>
         </div>
     </div>
-              
-    <div style="position:relative;">
-         <div class="parallax-box">
-            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-        </div>
-    </div>
-              
+         <div class="parallax-box" style="position:relative;">
+    <div class="imgcontainer"> <center>
+
+        <img src="images/prints/wumpus.jpg" onclick="onClick(this)" class="hover-shadow"
+        alt="Relief print: 'The Wumpus' "  >
+        <img src="images/prints/woman.jpg" onclick="onClick(this)" class="hover-shadow"
+        alt="Relief print: 'Woman with Wheat' "  >
+        <img src="images/prints/hand.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt="Relief print: 'Hand' " >
+        <img src="images/prints/herons.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt="Relief print: 'Herons' " >
+        <img src="images/prints/open.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt="Screen print: 'Open'" >
+    </center></div>
+     </div>
+    <!-- ******************* Drawings ********************* -->
+
     <div class="bgimg-3">
         <div class="caption">
-            <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+        <span class="border">
+                Drawings</span>
+            <p class="little"> Drawings done using a mixture of ink and digital coloration. </p>
         </div>
-    </div>
-              
-    <div style="position:relative;">
-        <div class="parallax-box">
-            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
-                
-        </div>
-    </div>
-              
+    </div> 
 
+<div class="parallax-box" style="position:relative;">
+<div class="imgcontainer"><center>
+        <img src="images/drawings/muscle-study.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt="Ink on paper: Male Anatomy Study" >
+        <img src="images/drawings/palms-nocolor.jpg" onclick="onClick(this)" class="hover-shadow"
+        alt=" Ink on paper: 'Palms' "  >
+        <img src="images/drawings/fish.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt=" Ink on paper and digital: 'Fish' " >
+        <img src="images/drawings/gremlin.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt=" Ink on paper and digital: 'Demons' " >
+        <img src="images/drawings/snake.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt=" Ink on paper and digital: 'Snake' " >
+    </center> </div>
+</div>
+
+
+<!--******************************   Photos   **********************************-->
+    <div class="bgimg-4">
+            <div class="caption">
+                <span class="border">
+                    Photography <br> 
+                 </span>
+                <p class="little"> Hand processed 35mm film, printed traditionally in the darkroom
+                    on Ilford Pearl Paper. </p>
+            </div>
+    </div>
+<div class="parallax-box" style="position:relative;">
+    <div class="imgcontainer">
+    <center>
+        <img src="images/film/bushes.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt="Insecurity">
+        <img src="images/film/tree.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt="It lives in the tree">
+        <img src="images/film/hannahleaves.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt=" Shadows " >
+        <img src="images/film/trash.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt=" Your Litter " >
+        <img src="images/film/piano.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt=" Home " >
+        <img src="images/film/bridge.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt=" The Bridge " >
+        <img src="images/film/dresser.jpg" onclick="onClick(this)" class="hover-shadow"
+        alt=" Room "  >
+    </center>
+    </div>
+</div>
+
+
+<!---*****************************    Book   ************************ -->
+<div class="bgimg-5">
+        <div class="caption">
+            <span class="border">
+                "Where I Buried My Pet Fish" - a book</span>
+                <p class="little"> A 7-layered screen-printed book, featuring my childhood home. </p>
+        </div>
+</div>
+<div class="parallax-box" style="position:relative;">
+   <div class="imgcontainer"> <center>
+        <img src="images/book/page1.jpg" onclick="onClick(this)" class="hover-shadow"
+        alt=" Page 1" >
+        <img src="images/book/page2.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt=" Page 2 and 3" >
+        <img src="images/book/page3.jpg" onclick="onClick(this)" class="hover-shadow" 
+        alt=" Page 4 and 5" >
+        <img src="images/book/page4.jpg" onclick="onClick(this)" class="hover-shadow"
+        alt=" Page 5 and 6"  >
+        <img src="images/book/page5.jpg" onclick="onClick(this)" class="hover-shadow"
+        alt=" End "  >
+   </center></div>
+</div>   
+        </div>
+      </div>
+
+
+
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0;" onclick="this.style.display='none'">
+          <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+          <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image" style="max-height: 600px;">
+            <p id="caption"></p>
+          </div>
+  </div>
 </body>
 </html>
